@@ -1,0 +1,150 @@
+body
+{
+
+    background: url("images/fond_marbre.png") no-repeat center fixed;
+    background-color: d3d1cf;
+    background-size: cover; /* version standardisée */ 
+    font-family: Arial, sans-serif;
+    
+	color: black;
+}
+
+#bloc_page
+{
+	width:95%;
+	margin: auto;
+}
+#cadre
+{
+	display: flex;
+}
+#bref
+{	position: relative;
+	height:900px;
+	display: flex;
+	flex-direction: column;
+
+	width: 15%;
+	background-image: url("images/carreaux_tr.png");
+	background-color: ##d1c3a9;
+	background-attachment: fixed;
+	font-size: 1em;
+}	
+	
+#bref h1
+{
+	margin-left: 5px;
+	text-decoration: underline;
+	font-style: italic;
+}
+
+
+#bref ul
+
+{
+	
+	color: #535456;
+	font-family: comic sans ms;
+	font-size: 1em;
+	font-weight: bold;
+	font-style: italic;
+	margin-bottom: 1.5em;
+	margin-top: 1em;
+	
+	
+}
+.li1:hover
+
+{
+	text-transform: uppercase;
+	border-bottom: dashed;
+	border-width: 1px;
+    color: #7c4320;
+    background-color: #ffc802;
+}
+
+.li2:hover
+
+{
+	text-transform: uppercase;
+	border-bottom: dashed;
+	border-width: 1px;
+    color: #7c4320;
+    background-color: #ffc802;
+}
+.li3:hover
+
+{
+	text-transform: uppercase;
+	border-bottom: dashed;
+	border-width: 1px;
+    color: #7c4320;
+    background-color: #ffc802;
+}
+.li4:hover
+
+{
+	text-transform: uppercase;
+	border-bottom: dashed;
+	border-width: 1px;
+    color: #7c4320;
+    background-color: #ffc802;
+}
+.li5:hover
+
+{
+	text-transform: uppercase;
+	border-bottom: dashed;
+	border-width: 1px;
+    color: #7c4320;
+    background-color: #ffc802;
+}
+#bref li
+{
+
+}
+
+
+#cadre
+{
+	display: flex;
+}
+#id h1
+{
+	margin-left: 600px;
+}
+
+#id 
+{	
+	display: flex;
+
+}
+#photo 
+
+{  
+    position: absolute;
+    right: 5px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+    opacity: 0.55;
+  	box-shadow: 6px 6px 3px #babdc1;
+
+ }
+ #intitule
+ {
+ 	width: 765px;
+ 	position: relative;
+ 	margin-top: 5px;
+ 	left:40%;
+ 	font-size: 1.4em;
+ 	font-family: comic sans ms;
+ 	
+ 	}
+
+
+}
+	
+}
